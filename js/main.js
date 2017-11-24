@@ -174,9 +174,6 @@ $(document).ready(function(){
 	от нуля до максимума).
 	*/
 
-	$("#body").fadeIn(1500);
-
-	//Additional
-
+	$("body").fadeIn(1500);
 
 });
