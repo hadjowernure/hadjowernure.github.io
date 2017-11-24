@@ -1,0 +1,6 @@
+table{
+	volume:medium;
+	play-during:none;
+	cue: url(".../sound/small-bell-ring.wav");
+	
+}

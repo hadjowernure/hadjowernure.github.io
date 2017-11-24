@@ -1,0 +1,58 @@
+@import url(text-style.css);
+@import url(header-style.css);
+@import url(pic-style.css);
+@import url(table-style.css);
+@import url(form-style.css);
+@import url(menu-style.css);
+
+
+body { 
+	background: url(https://sites.google.com/a/nure.ua/vladyslav-dudar/background.jpg);
+}
+
+#body {
+	display: none;
+}
+		
+#page-wrap { 
+	width: 800px; 
+	margin: 60px auto; 
+}
+
+p { 
+	margin: 0 0 16px 0; 
+}
+
+.clear { 
+	clear: both; 
+	float: none; 
+	margin: 0; 
+	height: 25px; 
+}
+
+#objective { 
+	width: 450px; 
+	float: left; 
+}
+
+#objective p { 
+	font-family: Georgia, Serif; 
+	font-style: italic; 
+	color: #666; 
+}
+
+hr { 
+	width: 60%; 
+	float: left; 
+}
+
+#note {
+	background-color: rgba(255, 224, 178, 0.4); 
+	border-radius: 2%; 
+	padding: 10px;
+}
+
+hr.top { 
+	width: 60%; 
+	float: left; 
+}

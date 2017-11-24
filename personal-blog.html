@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Personal blog</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+	<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+	<script type="text/javascript" src="js/jquery.hotkeys.js"></script>
+	<script type="text/javascript" src="js/jquery.validate.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+<div>
+	<div id="navbar">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a class="active" href="personal-blog.html">Personal blog</a></li>
+			<li class="dropdown">
+    			<a href="#">Other</a>
+   	 			<div class="dropdown-content">
+      				<a href="dev_tech.html">Development techologies</a>
+      				<a href="ai.html">Artificial Intelligence</a>
+      				<a href="school-subj.html">Favourite school subjects</a>
+      				<a href="future-plans.html">Future plans</a>
+      				<a href="comp-accs.html">Computer access</a>
+    			</div>
+ 			</li>
+			<li><a href="">About</a></li>
+		</ul>
+	</div>
+
+	<div id="myModal" class="modal">
+	
+  		<!-- The Close Button -->
+  		<span class="close">&times;</span>
+		
+  		<!-- Modal Content (The Image) -->
+  		<img class="modal-content" id="img01">
+		
+ 		 <!-- Modal Caption (Image Text) -->
+ 		<div id="caption"></div>
+	</div>
+
+	<div id="page-wrap">
+
+		<img src="res/img/photo.jpg" alt="Personal photo" width="303px"; height="379px"; id="pic">
+
+		<div>
+			<h1>Vladyslav Dudar</h1>
+			<hr class="top">
+
+			<p>
+				<strong>Name:</strong> Vladyslav V. Dudar<br/>
+				<strong>Sex:</strong> Male<br/>
+				<strong>Citizenship:</strong> Ukraine<br/>
+				<strong>Birthdate:</strong> August 17, 1998<br/>
+			</p>
+			
+			<div id="objective">
+				<h2>About Me:</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam maiores veniam, ipsa pariatur quae id nisi nam provident facilis porro perferendis, molestiae omnis aut, sed iusto quibusdam. Sed obcaecati inventore nihil qui repudiandae accusamus earum voluptates, tenetur ipsa odio vel aliquid perspiciatis sapiente autem officia labore laudantium, libero est dolores.</p>
+			</div>
+		</div>
+
+		<div class="clear"></div>
+
+		<div id="note">
+			<a href="personal-blog.html">hadjower</a><span> October 27th, 18:00</span>
+			<h3>How to be unemployed</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro labore quidem aliquid, dignissimos itaque molestias, quisquam aliquam autem sunt veniam, aut voluptas accusamus quia! Facere ab molestiae velit officiis esse beatae sequi unde cum mollitia fugit, dignissimos ullam veniam inventore nihil aliquam nostrum dolore fugiat vel! Sequi cumque obcaecati laboriosam incidunt ipsam animi iure excepturi officiis, voluptates doloribus eaque praesentium odio commodi ab illum pariatur veniam voluptatibus asperiores nam necessitatibus molestias magnam. Qui iusto porro odio maxime earum eos consequuntur neque temporibus, deserunt illo. Aperiam itaque quam non obcaecati, quis sit nostrum repellendus, at enim vel voluptatem fuga, distinctio qui.</p>
+			<img src="https://ic.pics.livejournal.com/ljpromo/44948941/1282470/1282470_original.jpg" alt="pic" width="700" height="400">
+
+			<p><strong>Tags:</strong> <a class="simple-link" href="">job</a>, <a simple-link href="">life</a></p>
+		</div>
+
+		<div class="clear"></div>
+
+		<div id="form">
+			<form>
+				<fieldset>
+					<legend>Leave new note in the blog:</legend>
+					<div>
+						<label for="">Nickname:</label><br>
+						<input type="text" name="nickname" id="nickname"><br>
+					</div>
+					<div>
+						<label for="tags">Tags:</label><br>
+						<input type="text" name="tags" id="tags"><br>
+					</div>
+					<div>
+						<label for="message">Note:</label><br>
+						<textarea name="message" rows="10" cols="60" id="message"></textarea><br><br>
+					</div>
+					<div>
+						<input type="submit" value="Send" id="send" name="send">
+					</div>
+				</fieldset>
+			</form>
+		</div>
+	</div>	
+</div>
+</body>
+</html>
