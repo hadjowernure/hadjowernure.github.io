@@ -116,7 +116,7 @@ $(document).ready(function(){
 	$(function(){
 		var num = 9;
 		var ul = $("ul.images");
-		var src = 'https://sites.google.com/a/nure.ua/vladyslav-dudar/img/';
+		var src = 'res/img/gallery/';
 		$(".images img").each(function(index, element){
 			$(element).attr("src", src + index + ".jpg")
 		});
