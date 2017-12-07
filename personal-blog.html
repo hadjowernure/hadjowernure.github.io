@@ -12,7 +12,7 @@
 </head>
 <body>
 <div>
-	<div id="navbar">
+	<nav id="navbar">
 		<ul>
 			<li><a href="index.html">Home</a></li>
 			<li><a class="active" href="personal-blog.html">Personal blog</a></li>
@@ -43,12 +43,16 @@
  		<div id="caption"></div>
 	</div>
 
-	<div id="page-wrap">
+	<main id="page-wrap">
 
-		<img src="res/img/photo.jpg" alt="Personal photo" width="303px"; height="379px"; id="pic">
+		<aside>
+			<img src="res/img/photo.jpg" alt="Personal photo" width="303px"; height="379px"; id="pic">
+		</aside>
 
-		<div>
-			<h1>Vladyslav Dudar</h1>
+		<section>
+			<header>
+				<h1>Vladyslav Dudar</h1>
+			</header>
 			<hr class="top">
 
 			<p>
@@ -59,31 +63,40 @@
 			</p>
 			
 			<div id="objective">
+				<h4>Song of the day: <a href="#">♫ The Imitation Game - Main Theme</a></h4>
+				<audio controls="controls">
+					<source src="res/audio/imitation game.mp3" type="audio/mpeg">
+					<source src="res/audio/imitation game.ogg" type="audio/ogg">
+				</audio>
 				<h2>About Me:</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam maiores veniam, ipsa pariatur quae id nisi nam provident facilis porro perferendis, molestiae omnis aut, sed iusto quibusdam. Sed obcaecati inventore nihil qui repudiandae accusamus earum voluptates, tenetur ipsa odio vel aliquid perspiciatis sapiente autem officia labore laudantium, libero est dolores.</p>
 			</div>
-		</div>
+		</section>
 
 		<div class="clear"></div>
 
-		<div id="note">
-			<a href="personal-blog.html">hadjower</a><span> October 27th, 18:00</span>
+		<section id="note">
+			<a href="personal-blog.html" class="simple-link">hadjower</a><span> October 27th, 18:00</span>
 			<h3>How to be unemployed</h3>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro labore quidem aliquid, dignissimos itaque molestias, quisquam aliquam autem sunt veniam, aut voluptas accusamus quia! Facere ab molestiae velit officiis esse beatae sequi unde cum mollitia fugit, dignissimos ullam veniam inventore nihil aliquam nostrum dolore fugiat vel! Sequi cumque obcaecati laboriosam incidunt ipsam animi iure excepturi officiis, voluptates doloribus eaque praesentium odio commodi ab illum pariatur veniam voluptatibus asperiores nam necessitatibus molestias magnam. Qui iusto porro odio maxime earum eos consequuntur neque temporibus, deserunt illo. Aperiam itaque quam non obcaecati, quis sit nostrum repellendus, at enim vel voluptatem fuga, distinctio qui.</p>
 			<img src="https://ic.pics.livejournal.com/ljpromo/44948941/1282470/1282470_original.jpg" alt="pic" width="700" height="400">
 
-			<p><strong>Tags:</strong> <a class="simple-link" href="">job</a>, <a simple-link href="">life</a></p>
-		</div>
+			<p><strong>Tags:</strong> <a class="simple-link" href="">job</a>, <a class="simple-link" href="">life</a></p>
+		</section>
 
 		<div class="clear"></div>
 
-		<div id="form">
+		<section id="form">
 			<form>
 				<fieldset>
 					<legend>Leave new note in the blog:</legend>
 					<div>
 						<label for="">Nickname:</label><br>
 						<input type="text" name="nickname" id="nickname"><br>
+					</div>
+					<div>
+						<label for="">Email:</label><br>
+						<input type="email" name="email" id="email"><br>
 					</div>
 					<div>
 						<label for="tags">Tags:</label><br>
@@ -98,7 +111,7 @@
 					</div>
 				</fieldset>
 			</form>
-		</div>
+		</section>
 	</div>	
 </div>
 </body>
