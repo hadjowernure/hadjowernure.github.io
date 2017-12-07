@@ -10,10 +10,23 @@
 	<script type="text/javascript" src="js/jquery.validate.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 
+	<!-- Main library -->
+        <script src="js/canvas/three.min.js"></script>
+      
+        <!-- Helpers -->
+        <script src="js/canvas/projector.js"></script>
+        <script src="js/canvas/canvas-renderer.js"></script>
+
+        <!-- Visualitzation adjustments -->
+        <script src="js/canvas/3d-lines-animation.js"></script>
+
+        <!-- Animated background color -->
+        <script src="js/canvas/color.js"></script>
+
 </head>
 <body>
 <div>
-	<div id="navbar">
+	<nav id="navbar">
 		<ul>
 			<li><a href="index.html">Home</a></li>
 			<li><a href="personal-blog.html">Personal blog</a></li>
@@ -30,7 +43,7 @@
 			<li><a class="active" href="">Gallery</a></li>
 			<li><a href="">About</a></li>
 		</ul>
-	</div>
+	</nav>
 
 	<div id="myModal" class="modal">
 	
@@ -44,11 +57,16 @@
  		<div id="caption"></div>
 	</div>
 
-	<div id="page-wrap" >
+	<main id="page-wrap" >
+
+		<header>
+			<h1>Gallery</h1>
+		</header>
 
 		<div id="carousel" class="carousel">
     		<button class="arrow prev">⇦</button>
     		<div class="gallery">
+			<div id="canvas" class="gradient"></div>
       			<ul class="images">
       				<li><img src="" alt=""></li>
       				<li><img src="" alt=""></li>
@@ -65,7 +83,7 @@
   		</div>
 
   		<div id="instafeed"></div>
-	</div>
+	</main>
 </div>
 </body>
 </html>

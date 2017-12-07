@@ -56,6 +56,10 @@ $(document).ready(function(){
 					required: true,
 					loginRegex: true
 				},
+				email: {
+					required: true,
+					email: true
+				},
 				tags: "required",
 				message: "required"
 
@@ -64,6 +68,10 @@ $(document).ready(function(){
 				nickname: {
 					required: "Please enter your nickname",
 					loginRegex: "Username format not valid"
+				},
+				email: {
+					required: "Please enter your email adress",
+					email: "Email format not valid"
 				},
 				tags: "Please enter tag(s)",
 				message: "Note should not be empty"
@@ -175,5 +183,19 @@ $(document).ready(function(){
 	*/
 
 	$("body").fadeIn(1500);
+
+	/*
+	Laba 4
+	*/
+
+	$("#objective a").click(function(){
+		var audio = $("audio");
+
+		if (audio.is(":visible")) {
+			audio.slideUp("fast");
+		} else if (audio.is(":hidden")) {
+			audio.slideToggle("fast");
+		}
+	})
 
 });
