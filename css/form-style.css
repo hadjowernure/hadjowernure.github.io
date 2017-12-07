@@ -1,10 +1,10 @@
-input[type=text], input[type=submit], textarea {
+input[type=text], input[type=submit], input[type=email], textarea {
 	border: 2px solid #ccc;
 	background-color: #f8f8f8;
 	outline: none;
 }
 
-input[type=text], textarea {
+input[type=text], input[type=email], textarea {
 	border-radius: 4px;
 }
 
@@ -26,9 +26,10 @@ input[type=submit]:hover {
 	background-color: #EEEEEE;
 }
 
-input[type=text] {
+input[type=text], input[type=email] {
 	height: 15px;
 	padding: 10px 20px;
+	width: 30%;
 }
 
 label.form-error {
