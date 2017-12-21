@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="personal_blog.xsl"?>
+<body>
+	<note id="1">
+		<author>hadjower</author>
+		<date>
+			<year>2017</year>
+			<month>October</month>
+			<day>21</day>
+			<time>14:07</time>
+		</date>
+		<theme>How to be unemployed</theme>
+		<content>
+			<text>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro labore quidem aliquid, dignissimos itaque molestias, quisquam aliquam autem sunt veniam, aut voluptas accusamus quia! Facere ab molestiae velit officiis esse beatae sequi unde cum mollitia fugit, dignissimos ullam veniam inventore nihil aliquam nostrum dolore fugiat vel! Sequi cumque obcaecati laboriosam incidunt ipsam animi iure excepturi officiis, voluptates doloribus eaque praesentium odio commodi ab illum pariatur veniam voluptatibus asperiores nam necessitatibus molestias magnam. Qui iusto porro odio maxime earum eos consequuntur neque temporibus, deserunt illo. Aperiam itaque quam non obcaecati, quis sit nostrum repellendus, at enim vel voluptatem fuga, distinctio qui.</text>
+			<image>https://ic.pics.livejournal.com/ljpromo/44948941/1282470/1282470_original.jpg</image>
+		</content>
+		<tags>job, life</tags>
+	</note>
+	<note id="2">
+		<author>hadjower</author>
+		<date>
+			<year>2017</year>
+			<month>October</month>
+			<day>21</day>
+			<time>14:07</time>
+		</date>
+		<theme>How to be unemployed</theme>
+		<content>
+			<text>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro labore quidem aliquid, dignissimos itaque molestias, quisquam aliquam autem sunt veniam, aut voluptas accusamus quia! Facere ab molestiae velit officiis esse beatae sequi unde cum mollitia fugit, dignissimos ullam veniam inventore nihil aliquam nostrum dolore fugiat vel! Sequi cumque obcaecati laboriosam incidunt ipsam animi iure excepturi officiis, voluptates doloribus eaque praesentium odio commodi ab illum pariatur veniam voluptatibus asperiores nam necessitatibus molestias magnam. Qui iusto porro odio maxime earum eos consequuntur neque temporibus, deserunt illo. Aperiam itaque quam non obcaecati, quis sit nostrum repellendus, at enim vel voluptatem fuga, distinctio qui.</text>
+			<image>https://ic.pics.livejournal.com/ljpromo/44948941/1282470/1282470_original.jpg</image>
+		</content>
+		<tags>job, life</tags>
+	</note>
+</body>	

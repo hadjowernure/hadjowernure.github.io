@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+ xmlns:tns="http://nure.ua/web/kn156/dudar">
+ 	<xsd:element name="body">
+ 		<xsd:complexType>
+ 			<xsd:sequence>
+ 				<xsd:element name="note" type="tns:note" maxOccurs="unbounded"/>
+ 			</xsd:sequence>
+ 		</xsd:complexType>
+ 	</xsd:element>
+
+ 	<xsd:complexType name="note">
+ 		<xsd:attribute ref="id" use="required"/>
+ 		<xsd:element name="author" type="xsd:string"/>
+ 		<xsd:element name="date" type="tns:date"/>
+ 		<xsd:element name="theme" type="xsd:string"/>
+ 		<xsd:element name="content" type="tns:content"/>
+ 		<xsd:element name="tags" type="xsd:string"/>
+ 	</xsd:complexType>
+
+ 	<xsd:complexType name="date">
+ 		<xsd:element name="year" type="xsd:integer"/>
+ 		<xsd:element name="month" type="xsd:string"/>
+ 		<xsd:element name="day" type="xsd:integer"/>
+ 		<xsd:element name="time" type="xsd:string"/>
+ 	</xsd:complexType>
+
+ 	<xsd:complexType name="content">
+ 		<xsd:element name="text" type="xsd:string"/>
+ 		<xsd:element name="image" type="xsd:string"/>
+ 	</xsd:complexType>
+ </xsd:schema>
